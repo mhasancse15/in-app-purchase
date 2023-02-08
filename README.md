@@ -1,44 +1,13 @@
 # Welcome to in-app-purchase (Android Studio Java*)
 
-Consumable Item In-App Purchases: https://github.com/wdtheprovider/in-app-purchase
-
-In this repository i'm going to show you how to integrate In-App Purchases of Google Play Billing version 5+ in 7 steps. I follow the officailly google 
- docs, i'm not using any third-party library
-
-Demo <br>
-Demo available on Play Store : https://play.google.com/store/apps/details?id=com.wdtheprovider.inapppurchase
-<br>
-
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/splash.jpg" width="270" height="550">
- <span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p1.jpg" width="270" height="550">
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p2.jpg" width="270" height="550">
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p3.jpg" width="270" height="550">
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p4.jpg" width="270" height="550">
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p5.jpg" width="270" height="550">
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p6.jpg" width="270" height="550">
-<span> <img src="https://github.com/wdtheprovider/in-app-purchases-subscription/blob/master/app/src/main/res/drawable/p7.jpg" width="270" height="550">
-
-
-</span>
-
-<br>
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=KPSJWR36UHBV2)
-
-<br>
-
 Pre-requisite
 - Google Play Console Account
 - Published App on Play Store
 - Tester Device with GMS
 
-YouTube Video: Part-1 | Intro Demo: https://youtu.be/nQrsVB7quKw <br>
-<br>YouTube Video: Part-2 | Configure Testing Device: https://youtu.be/j6wWVMj-fi8 <br>
-<br>YouTube Video: Part-3 | Integrating The Methods to purchase the products: Uploading soon <br>
-
 ```
 Configure Your Testing device by adding the gmail account to internal testing testers 
-and License testing (Watch the YouTube video for clarity: https://youtu.be/j6wWVMj-fi8 )
+and License testing.
 
 
 Setup the in-app purchase subscription product in Google Play Console account
