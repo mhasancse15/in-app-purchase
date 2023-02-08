@@ -1,4 +1,4 @@
-package com.live.poco;
+package com.mhasancse.coin;
 
 import org.junit.Test;
 

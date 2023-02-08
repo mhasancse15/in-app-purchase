@@ -1,4 +1,4 @@
-package com.live.poco;
+package com.mhasancse.coin;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +29,7 @@ import com.android.billingclient.api.QueryProductDetailsParams;
 import com.android.billingclient.api.QueryPurchasesParams;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.collect.ImmutableList;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -92,15 +93,15 @@ public class MainActivity extends AppCompatActivity implements RecycleViewInterf
     void showProducts() {
 
         ImmutableList<QueryProductDetailsParams.Product> productList = ImmutableList.of(
-                //Product 1
+                //Product 1 : YOUR PRODUCT ID
                 QueryProductDetailsParams.Product.newBuilder()
-                        .setProductId("google.pay.02500")
+                        .setProductId("YOUR PRODUCT ID")
                         .setProductType(BillingClient.ProductType.INAPP)
                         .build(),
 
-                //Product 2
+                //Product 2 : YOUR PRODUCT ID
                 QueryProductDetailsParams.Product.newBuilder()
-                        .setProductId("google.pay.15000")
+                        .setProductId("YOUR PRODUCT ID")
                         .setProductType(BillingClient.ProductType.INAPP)
                         .build()
         );
@@ -114,10 +115,12 @@ public class MainActivity extends AppCompatActivity implements RecycleViewInterf
             handler.postDelayed(() -> {
                 loadProducts.setVisibility(View.INVISIBLE); //
                 productDetailsList.addAll(list);
+
                 adapter = new BuyCoinsAdapter(getApplicationContext(), productDetailsList, MainActivity.this);
                 recyclerView.setHasFixedSize(true);
                 recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this, LinearLayoutManager.VERTICAL, false));
                 recyclerView.setAdapter(adapter);
+
             }, 2000);
         });
     }
@@ -168,9 +171,12 @@ public class MainActivity extends AppCompatActivity implements RecycleViewInterf
 
         productIds = new ArrayList<>();
         coins = new ArrayList<>();
-        productIds.add("google.pay.02500");
+        //Change Product Id here
+        productIds.add("YOUR PRODUCT ID");
         coins.add(2500);
-        productIds.add("google.pay.15000");
+
+        //Change Product Id here
+        productIds.add("YOUR PRODUCT ID");
         coins.add(15000);
 
     }

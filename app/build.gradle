@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.live.poco'
+    namespace 'com.mhasancse.coin'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.live.poco"
+        applicationId "com.mhasancse.coin"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -43,12 +43,6 @@ dependencies {
     implementation "com.android.billingclient:billing:$billing_version"
     implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
     implementation 'com.google.guava:guava:24.1-jre'
-
-/*    implementation platform('com.google.firebase:firebase-bom:31.0.1')
-    implementation 'com.google.firebase:firebase-analytics'
-
-    implementation platform('com.google.firebase:firebase-bom:31.0.1')
-    implementation 'com.google.firebase:firebase-config'*/
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
